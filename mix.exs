@@ -3,16 +3,17 @@ defmodule HtmlSanitizeEx.Mixfile do
 
   def project do
     [
-      app: :html_sanitize_ex,
-      version: "1.3.0",
+      app: :suexcxine_html_sanitize_ex,
+      version: "1.4.0",
       elixir: "~> 1.0",
       description: "HTML sanitizer for Elixir",
-      source_url: "https://github.com/rrrene/html_sanitize_ex",
+      source_url: "https://github.com/suexcxine/html_sanitize_ex",
       package: [
-        maintainers: ["René Föhring"],
+        name: "suexcxine_html_sanitize_ex",
+        maintainers: ["René Föhring", "suexcxine"],
         licenses: ["MIT"],
         links: %{
-          "GitHub" => "https://github.com/rrrene/html_sanitize_ex"
+          "GitHub" => "https://github.com/suexcxine/html_sanitize_ex"
         }
       ],
       build_embedded: Mix.env() == :prod,
